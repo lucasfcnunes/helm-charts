@@ -107,6 +107,12 @@ helm install my-release -f values.yaml christianknell/shlink-backend
 
 ## Upgrading the Chart
 
+### 3.0.0
+
+This major updates the redis subchart to its newest major, 18.0.4. [Here](https://github.com/bitnami/charts/tree/main/bitnami/redis#to-1800) you can find more information about the changes introduced in that version.
+
+Additionally it updates the MariaDB subchart to its newest major, 13.1.3. [Here](https://github.com/bitnami/charts/tree/main/bitnami/mariadb#to-1300) you can find more information about the changes introduced in that version.
+
 ### To 2.0.0
 
 This major updates the RabbitMQ subchart to its newest major, 12.0.0. [Here](https://github.com/bitnami/charts/tree/main/bitnami/rabbitmq#upgrading) and [here](https://www.rabbitmq.com/upgrade.html) you can find more information about the changes introduced in that version.
